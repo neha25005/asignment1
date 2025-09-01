@@ -5,11 +5,7 @@
 int main()
  {
     int toss;
-
-    // Seed the random number generator with current time
-    srand(time(0));
-
-    // Generate random number: 0 or 1
+    srand(time(0))
     toss = rand() % 2;
 
     if (toss == 0) {
@@ -18,4 +14,5 @@ int main()
         printf("It's Tail!\n");
     }
 return 0;
+
 }
